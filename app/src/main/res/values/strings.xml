@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyUnitConverterApp</string>
+    <string-array name="unit_measure">
+        <item>Kg/lbs</item>
+        <item>km/meter</item>
+        <item>Cm/millimetre</item>
+        <item>Gram/ounce</item>
+        <item>Mile/yard</item>
+        <item>Celsius/fahrenheit</item>
+    </string-array>
+
+</resources>
