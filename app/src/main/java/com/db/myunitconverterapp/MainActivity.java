@@ -57,34 +57,29 @@ Button btnConvert;
                     int enteredValue = Integer.parseInt(editText.getText().toString());
                     double result = enteredValue* 2.2;
                     editTextNumber2.setText(String.valueOf(result));
-//                   System.out.println("**********************");
-//                   System.out.println("this is entered text" + enteredValue);
-//                    System.out.println("//////////////////////////");
-//                   System.out.println("This is result" + result);
-//                    System.out.println("**********************");
                 }
-                if (selectedValue.equals("km/meter")) {
+                else if (selectedValue.equals("km/meter")) {
                     int enteredValue = Integer.parseInt(editText.getText().toString());
-                    int result = enteredValue * 1000;
+                    double result = enteredValue * 1000;
                     editTextNumber2.setText(String.valueOf(result));
                 }
 
-                if (selectedValue.equals("Cm/millimetre")) {
+                else if (selectedValue.equals("Cm/millimetre")) {
                     int enteredValue = Integer.parseInt(editText.getText().toString());
                     double result = enteredValue * 10;
                     editTextNumber2.setText(String.valueOf(result));
                 }
-                if (selectedValue.equals("Gram/ounce")) {
+                else if (selectedValue.equals("Gram/ounce")) {
                     int enteredValue = Integer.parseInt(editText.getText().toString());
                     double result = enteredValue / 28.35;
                     editTextNumber2.setText(String.valueOf(result));
                 }
-                if (selectedValue.equals("Mile/yard")) {
+                else if (selectedValue.equals("Mile/yard")) {
                     int enteredValue = Integer.parseInt(editText.getText().toString());
                     double result = enteredValue * 1760;
                     editTextNumber2.setText(String.valueOf(result));
                 }
-                if (selectedValue.equals("Celsius/fahrenheit")) {
+                else if (selectedValue.equals("Celsius/fahrenheit")) {
                     int enteredValue = Integer.parseInt(editText.getText().toString());
                     double result = enteredValue * 1.8 + 32;
                     editTextNumber2.setText(String.valueOf(result));

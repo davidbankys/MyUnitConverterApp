@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <!--
+       The textview for the TITLE
+    -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="235dp"
@@ -20,6 +22,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+       This textview is for letting
+       you know where i am converting from
+    -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="98dp"
@@ -31,6 +37,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
+    <!--
+      This textview is for letting
+      you know where i am converting to
+   -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="88dp"
@@ -42,6 +52,9 @@
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
+    <!--
+      This is the spinner
+   -->
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="194dp"
@@ -52,7 +65,9 @@
         app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:ignore="SpeakableTextPresentCheck" />
 
-
+    <!--
+          This is the button to convert
+       -->
     <Button
         android:id="@+id/btnConvert"
         android:text="convert"
@@ -63,6 +78,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"/>
 
+    <!--
+      This edittview is for letting
+      your input
+   -->
     <EditText
         android:id="@+id/editText"
         android:layout_width="141dp"
@@ -75,6 +94,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <!--
+     This edittview display the result
+  -->
     <EditText
         android:id="@+id/editTextNumber2"
         android:layout_width="144dp"
